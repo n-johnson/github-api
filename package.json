@@ -1,0 +1,29 @@
+{
+    "name": "github-api",
+    "version": "0.0.0",
+    "description": "Lightweight javascript api to interact with github v3 api",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n-johnson/github-api.git"
+    },
+    "keywords": [
+        "github"
+    ],
+    "author": "Nathan Johnson <node@njohnson.me>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/n-johnson/github-api/issues"
+    },
+    "homepage": "https://github.com/n-johnson/github-api",
+    "dependencies": {
+        "jquery": "~2.1.1",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-browserify": "~2.1.4",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-watch": "~0.6.1"
+    }
+}
